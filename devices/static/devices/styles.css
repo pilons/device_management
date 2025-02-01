@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* 優しい水色 */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #1e90ff; /* ディープスカイブルー */
+    text-align: center;
+    padding: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #1e90ff;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    width: 50%;
+    color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.add-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.add-button:hover {
+    background-color: #104e8b; /* より濃い青 */
+}
